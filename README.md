@@ -7,8 +7,8 @@ Authors: Sagar Thapa
 
 ## Getting Started
 
-1. Load the database with given sql query in sql folder.
-2. Setup the db connection on file database.php in function folder.
+### 1.Load the database with given sql query in sql folder.
+### 2.Setup the db connection on file database.php in function folder.
 ```php
   public function __construct($table_name)
   {
@@ -20,10 +20,11 @@ Authors: Sagar Thapa
       $this->table=$table_name;
   }
  ```
-3. Finally load main.php inside home_page and use login details from folder login_password.
-4. For mail service PHP mailer has been used with PHP version 7.X
+### 3.Finally load main.php inside home_page and use login details from folder login_password.
+### 4.For mail service PHP mailer has been used with PHP version 7.X
+
 ![PHPMailer](https://raw.github.com/PHPMailer/PHPMailer/master/examples/images/phpmailer.png)
-## A Simple Example
+#### A Simple Example
 
 ```php
 <?php
@@ -64,8 +65,9 @@ if(!$mail->send()) {
     echo 'Message has been sent';
 }
 ```
+### 5.Setup strip account to use Strip API Payment.
 5. Setup strip account to use Strip API Payment.
-# Stripe PHP bindings
+#### Stripe PHP bindings
 
 [![Build Status](https://travis-ci.org/stripe/stripe-php.svg?branch=master)](https://travis-ci.org/stripe/stripe-php)
 [![Latest Stable Version](https://poser.pugx.org/stripe/stripe-php/v/stable.svg)](https://packagist.org/packages/stripe/stripe-php)
@@ -75,11 +77,11 @@ if(!$mail->send()) {
 
 You can sign up for a Stripe account at https://stripe.com.
 
-## Requirements
+#### Requirements
 
 PHP 5.4.0 and later.
 
-## Composer
+#### Composer
 
 You can install the bindings via [Composer](http://getcomposer.org/). Run the following command:
 
@@ -93,7 +95,7 @@ To use the bindings, use Composer's [autoload](https://getcomposer.org/doc/01-ba
 require_once('vendor/autoload.php');
 ```
 
-## Manual Installation
+#### Manual Installation
 
 If you do not wish to use Composer, you can download the [latest release](https://github.com/stripe/stripe-php/releases). Then, to use the bindings, include the `init.php` file.
 
@@ -101,7 +103,7 @@ If you do not wish to use Composer, you can download the [latest release](https:
 require_once('/path/to/stripe-php/init.php');
 ```
 
-## Dependencies
+#### Dependencies
 
 The bindings require the following extensions in order to work properly:
 
