@@ -2,8 +2,8 @@
 
 You can have demo at: http://candbrentals.infinityfreeapp.com/.
 
-Authors: Sagar Thapa
-         Nisha Shrestha
+Authors: Sagar Thapa, Nisha Shrestha, Sagar Maharjan, Sina Lama
+
 
 ## Getting Started
 
