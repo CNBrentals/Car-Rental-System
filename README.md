@@ -7,8 +7,8 @@ Authors: Sagar Thapa
 
 ## Getting Started
 
-### 1.Load the database with given sql query in sql folder.
-### 2.Setup the db connection on file database.php in function folder.
+#### 1. Load the database with given sql query in sql folder.
+#### 2. Setup the db connection on file database.php in function folder.
 ```php
   public function __construct($table_name)
   {
@@ -20,8 +20,9 @@ Authors: Sagar Thapa
       $this->table=$table_name;
   }
  ```
-### 3.Finally load main.php inside home_page and use login details from folder login_password.
-### 4.For mail service PHP mailer has been used with PHP version 7.X
+#### 3. Finally load main.php inside home_page and use login details from folder login_password.
+#### 4. For mail service PHP mailer has been used with PHP version 7.X
+
 
 ![PHPMailer](https://raw.github.com/PHPMailer/PHPMailer/master/examples/images/phpmailer.png)
 #### A Simple Example
@@ -65,8 +66,8 @@ if(!$mail->send()) {
     echo 'Message has been sent';
 }
 ```
-### 5.Setup strip account to use Strip API Payment.
-5. Setup strip account to use Strip API Payment.
+#### 5. Setup strip account to use Strip API Payment.
+
 #### Stripe PHP bindings
 
 [![Build Status](https://travis-ci.org/stripe/stripe-php.svg?branch=master)](https://travis-ci.org/stripe/stripe-php)
